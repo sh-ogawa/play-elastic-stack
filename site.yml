@@ -1,5 +1,1 @@
-- name: Elasticsearch with custom configuration
-  hosts: all
-  roles:
-    - role: elastic.elasticsearch
-      es_instance_name: "node1"
+- include: galaxy-playbook/elasticsearch.yml
